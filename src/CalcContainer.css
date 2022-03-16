@@ -2,4 +2,22 @@
   border: 1px solid black;
   margin: auto;
   max-width: 500px;
+  padding: 5px 10px;
+}
+
+.operator {
+  padding: 0px 10px;
+}
+
+.equal-button {
+  background-color: rgb(185, 103, 218);
+  border: none;
+  border-radius: 3px;
+  margin: 0px 3px;
+  padding: 3px 6px;
+}
+
+.equal-button:hover {
+  background-color: white;
+  border: 1px solid rgb(185, 103, 218);
 }
