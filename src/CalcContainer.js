@@ -2,6 +2,7 @@ import React from "react";
 import Addition from "./Addition";
 import Subtraction from "./Subtraction";
 import Multiplication from "./Multiplication";
+import Division from "./Division";
 import "./CalcContainer.css";
 
 function CalcContainer() {
@@ -10,6 +11,7 @@ function CalcContainer() {
       <Addition />
       <Subtraction />
       <Multiplication />
+      <Division />
     </div>
   );
 }
